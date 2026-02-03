@@ -1,0 +1,23 @@
+{
+  "directml_optimization": {
+    "enable_fp16": true,
+    "enable_batching": true
+  },
+  "models": {
+    "Qwen2.5-0.5B": {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct",
+      "cache_dir": "D:/PyCharm Community Edition 2024.1/26.1.22AMD 3.10.19/qianwenchat",
+      "description": "小模型，速度快"
+    },
+    "Qwen2.5-1.5B": {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "cache_dir": "D:/PyCharm Community Edition 2024.1/26.1.22AMD 3.10.19/qianwenchat",
+      "description": "平衡选择"
+    },
+    "Qwen2.5-3B": {
+      "name": "Qwen/Qwen2.5-3B-Instruct",
+      "cache_dir": "D:/PyCharm Community Edition 2024.1/26.1.22AMD 3.10.19/qianwenchat",
+      "description": "质量优先"
+    }
+  }
+}

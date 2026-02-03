@@ -1,0 +1,7 @@
+﻿{
+  "项目名称": "AMD 7900XTX AI助手",
+  "默认模型": "Qwen/Qwen2.5-0.5B-Instruct",
+  "最大生成长度": 200,
+  "温度": 0.7,
+  "cache_dir": "D:/PyCharm Community Edition 2024.1/26.1.22AMD 3.10.19/qianwenchat"
+}

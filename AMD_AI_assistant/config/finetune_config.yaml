@@ -1,0 +1,43 @@
+# 微调配置
+training:
+  base_model: "models/qa_models/macbert"
+  output_dir: "finetuned_models"
+
+  # 训练参数
+  num_epochs: 3
+  batch_size: 8
+  learning_rate: 3e-5
+  warmup_steps: 500
+  weight_decay: 0.01
+
+  # 数据参数
+  max_length: 384
+  stride: 128
+  doc_stride: 128
+
+  # 设备设置
+  device: "auto"  # auto, cuda, cpu, directml
+
+# 数据集配置
+dataset:
+  # CMRC2018数据集路径
+  cmrc2018_path: "finetune_data/cmrc2018"
+
+  # 自定义数据集
+  custom:
+    output_dir: "finetune_data/custom"
+    train_ratio: 0.8
+    dev_ratio: 0.1
+    test_ratio: 0.1
+
+# 模型配置
+model:
+  supported_types:
+    - "macbert"
+    - "bert-wwm"
+    - "ernie"
+    - "roberta"
+
+  # 微调模型自动发现
+  auto_discover: true
+  finetuned_dir: "finetuned_models"
