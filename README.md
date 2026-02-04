@@ -29,3 +29,5 @@ pip install -r requirements.txt
 
 #运行
 python .\src\web\app.py
+
+<img width="1858" height="991" alt="41e7dd91-bb36-4f2b-8721-032de970ba5b" src="https://github.com/user-attachments/assets/f9f6c681-3a8e-4426-a7bb-bd624188e261" />
